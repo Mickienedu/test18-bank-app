@@ -1,0 +1,428 @@
+header{
+    background: linear-gradient(rgb(5, 5, 40), rgb(19, 19, 40), lightblue);
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 0px;
+}
+.headerInner{
+   display: flex;
+   gap: 3rem;
+   list-style: none;
+}
+.headerInner a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.headerSelect{
+    display: flex;
+    align-items: center;
+    gap: 3.5rem;
+}
+.select-proper{
+    border: none;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background: linear-gradient(rgb(5, 5, 40), rgb(19, 19, 40));
+    outline: none;
+}
+.select-proper option{
+    color: black;
+}
+/* THE SECOND NAV LINK */
+.header2{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+}
+.ul-second{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    list-style: none;
+}
+.ul-second a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
+/* HIDDEN DIVS */
+.hovers{
+    background: #D42E12;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    height: 40px;
+    padding: 8px;
+    width: 280px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.hidden-div{
+    display: none;
+    color: black;
+    background: white;
+}
+.hidden-div h5{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+.hidden-flex{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 10rem;
+}
+.selectbunch{
+    display: flex;
+    align-items: center; 
+    gap: 4rem;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div{
+    display: none;
+    color: black;
+    background: white;
+   
+} 
+.dropbtn {
+    background-color: #D42E12;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #D42E12;}
+.div2{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 4rem;
+} 
+.ubanigeria{
+    list-style: none;
+}
+.ubanigeria a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px; 
+    /* gap: 3rem; */
+    
+}
+.innitiative{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+/* FIRST HIDDEN DIV */
+.btn1{
+    display: none; 
+    text-align: center;
+    background: white;
+    line-height: 70px;
+
+}
+.btn2{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(198, 197, 197);
+}
+/* FIRST HIDDEN DIV ENDED HERE */
+.personal{
+    background: none;
+}
+.about-hove{
+    background: none;
+}
+.nav2{
+    display: grid;
+}
+.main-logo{
+    width: 100px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.nav2 h5{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    color: white;
+    margin-left: -3rem;
+}
+/* FIRST SECTION */
+
+.first-section{
+     margin-top: 15rem; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40rem; 
+}
+.first-side{
+    line-height: 20px;
+}
+.first-side h3{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first-side h5{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn-get-started{
+    width: 200px;
+    height: 50px;
+    background: #D42E12;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+
+}
+/* SECOND SECTION */
+.second-section{
+    display: grid;
+    text-align: center;
+    /* line-height: 0px; */
+}
+.second-section h3{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.second-section h4{
+    font-size: 20px;
+    margin-top: -12px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img-second-section{
+    display: flex;
+}
+/* ANOTHER SECTION FOR SUPPORT */
+.texts{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.text-control{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* THE COVER picture */
+.ubafifth{
+    margin-top: 4rem;
+}
+/* ANOTHER SECTION */
+.download{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.download-btn h4{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.download-btn h5{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.download-btn button{
+    width: 200px;
+    height: 40px;
+    background: #D42E12;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+/* ANOTHER SECTION */
+.section-help{
+    display: grid;
+    text-align: center;
+  margin-bottom: 4rem;
+}
+.section-help h4{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-help p{
+    margin-top: -1.4rem;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.questions{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+.migration-heading{
+    display: flex;
+    gap: 2rem;
+}
+.btns{
+    width: 180px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    outline: none;
+    box-shadow: 0.3px 0.3px 0.3px 0.5px rgb(222, 212, 212);
+    cursor: pointer;
+}
+.mig-questions{
+    line-height: 50px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* FOOTER HEADING */
+.f-heading{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 10rem;
+    background: #D42E12;
+}
+.f-heading h3{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+footer{
+    background: linear-gradient(rgb(0, 0, 0), rgb(62, 55, 55));
+
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-bottom: 6rem;
+    color: white;
+}
+/* .section-nav1{
+    display: grid;
+    text-align: start;
+} */
+.section-nav h3{
+    margin-left: 35px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ul-footer{
+    /* margin-top: -3rem; */
+    list-style: none;
+}
+.ul-footer a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 40px;
+    cursor: pointer;
+}
+/* .inputEmail{
+    gap: -1rem;
+} */
+.section-nav h4{
+    margin-top: 2rem;
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section-nav p{
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.email-add{
+    width: 200px;
+    height: 40px;
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    border: none;
+}
+.btn-footer{
+    height: 44px;
+    width: 100px;
+    margin-left: -21px;
+    border: none;
+    outline: none;
+    background: #D42E12;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+.inner-font{
+    padding: 14px;
+}
+#connect{
+    margin-left: -3px;
+}
+.lonely-footer{
+    text-align: center;
+    color: white;
+}
+.copy{
+    color: white;
+}
