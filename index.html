@@ -11,6 +11,8 @@
 </head>
 
 <body>
+    <!-- THE HEADER -->
+    <div class="main-main">
     <header>
         <div class="header">
             <ul class="headerInner">
@@ -29,15 +31,18 @@
                     <option value="hausa">Hausa</option>
                     <option value="hausa">Yoruba</option>
                 </select>
-                <select name="option" id="" class="select-proper">
+                <select name="option" id="just-select" class="select-proper">
                     <option value="select">Select Country</option>
                     <option value="nigeria">Nigeria</option>
                     <option value="ghana">Ghana</option>
                     <option value="cameroon">Cameroon</option>
                 </select>
-                <i class="fas fa-search" style="color: white;"></i>
+                <div class="search">
+                    <i class="fas fa-search" id="fasSearch"></i>
+                </div>
             </nav>
         </div>
+        <!-- THE SECOND NAV HEADER -->
         <div class="header2">
             <nav class="ul-second">
                 <!-- <nav class="hovers"> -->
@@ -49,12 +54,11 @@
                     <nav class="dropdown-content btn1">
                         <button class="btn2" type="button">Personal</button>
                         <button class="btn2" type="button">Business</button>
-
                     </nav>
                 </div>
-                <!-- <nav class="ul-second"> -->
-                <i class="fas fa-home" style="color: white; height: 20px;"></i>
-
+                 <nav class="ul-second">
+                <i class="fas fa-home" id="home-ico" style="color: white;"></i>
+                  </nav>
                 <nav class="ul-second">
                     <div class="dropdown">
                         <button class="dropbtn personal">PERSONAL</button>
@@ -95,7 +99,7 @@
                                     <h4>Foreign Exchange</h4>
                                     <h4>UBA Moni</h4>
                                 </nav>
-                
+
                                 <section class="select-bunch">
                                     <h2>Personal Banking</h2>
                                     <p>Banking made easier through <br> innovation.</p>
@@ -109,61 +113,66 @@
                 </nav>
                 <!-- hidden content ends here -->
                 <ul class="ul-second">
-                    <li><a href="#">SME</a></li>
-                    <li><a href="#">CORPORATE</a></li>
-                    <li><a href="#">MEDIA</a></li>
+                    <li><a href="#" class="sme">SME</a></li>
+                    <li><a href="#" class="sme">CORPORATE</a></li>
+                    <li><a href="#" class="sme">MEDIA</a></li>
                 </ul>
-               <nav class="ul-second">
-                <div class="dropdown">
+                <nav class="ul-second">
+                    <div class="dropdown">
                         <button class="dropbtn about-hove">ABOUT US</button>
-                    <div class="dropdown-content div"> 
-                        <div class="div2">
-                            <nav class="aboutUBA">
-                                <nav class="aboutstart">
-                                    <h4>About UBA (Nigeria)</h4>
-                                    <ul class="ubanigeria">
-                                        <li><a href="#">History</a></li>
-                                        <li><a href="#">Leadership</a></li>
-                                        <li><a href="#">Shared Values</a></li>
-                                        <li><a href="#">Moving to Nigeria</a></li>
-                                        <li><a href="#">Investor Information</a></li>
-                                        <li><a href="#">Awards</a></li>
-                                        <li><a href="#">Alliances</a></li>
-                                    </ul>
+                        <div class="dropdown-content div">
+                            <div class="div2">
+                                <nav class="aboutUBA">
+                                    <nav class="aboutstart">
+                                        <h4>About UBA (Nigeria)</h4>
+                                        <ul class="ubanigeria">
+                                            <li><a href="#">History</a></li>
+                                            <li><a href="#">Leadership</a></li>
+                                            <li><a href="#">Shared Values</a></li>
+                                            <li><a href="#">Moving to Nigeria</a></li>
+                                            <li><a href="#">Investor Information</a></li>
+                                            <li><a href="#">Awards</a></li>
+                                            <li><a href="#">Alliances</a></li>
+                                        </ul>
+                                    </nav>
+                                    <nav class="innitiative">
+                                        <h4>Initiatives</h4>
+                                        <details>
+                                            <summary></summary>
+                                        </details>
+                                    </nav>
                                 </nav>
-                                <nav class="innitiative">
-                                    <h4>Initiatives</h4>
-                                    <details>
-                                        <summary></summary>
-                                    </details>
+                                <nav class="nav">
+                                    <h3>Africa's Global Bank</h3>
+                                    <p>Head Office: 57 Marina, Lagos Island, Lagos, Nigeria <br>
+                                        Tel: +234 700 2255 822, +234 1 280 8822 <br>
+                                        Email: cfc@ubagroup.com</p>
                                 </nav>
-                            </nav>
-                            <nav class="nav">
-                                <h3>Africa's Global Bank</h3>
-                                <p>Head Office: 57 Marina, Lagos Island, Lagos, Nigeria <br>
-                                    Tel: +234 700 2255 822, +234 1 280 8822 <br>
-                                    Email: cfc@ubagroup.com</p>
-                            </nav>
-                            <nav class="nav">
-                                <img src="img/uba-mega-menu-banners-about-us.jpg" alt="" style="width: 300px;">
-                            </nav>
-                           
-                        </div>
+                                <nav class="nav">
+                                    <img src="img/uba-mega-menu-banners-about-us.jpg" alt="" style="width: 300px;">
+                                </nav>
+
+                            </div>
                         </div>
                     </div>
                     <!-- hidden content ends here -->
-                    <li><a href="#">HELP</a></li>
+                    <div class="help">
+                        <li><a href="#">HELP</a></li>
+                    </div>
                 </nav>
             </nav>
             <nav class="nav2">
                 <img src="img/UBA-logo-2.gif" alt="" class="main-logo">
-                <h5>United Bank For Africa</h5>
+                <h5 class="union">United Bank For Africa</h5>
             </nav>
 
 
         </div>
     </header>
+    </div>
+    <!-- THE HEADER ENDS HERE -->
 
+    <!-- THE FIRST SECTION OF THE FRONT PAGE STARTS HERE -->
     <div class="first-section">
         <main class="first-side">
             <h3>UBA Mobile Banking</h3>
@@ -171,20 +180,24 @@
             <button type="submit" class="btn-get-started">GET STARTED</button>
         </main>
         <main class="img-second-side">
-            <img src="img/Hand_holding_a_phone.png" alt="" style="width: 500px; ">
+            <img src="img/Hand_holding_a_phone.png" alt="" id="img-first">
         </main>
     </div>
-    <!-- <div class="second-section"> -->
+    <!-- THE FIRST SECTION ENDS HERE -->
+
+    <!-- THE SECOND SECTION STARTS HERE -->
     <hgroup class="second-section">
         <h3>Made for you</h3>
         <h4>Everything to make your life easier</h4>
     </hgroup>
     <nav class="img-second-section">
-        <img src="img/uba-first-img.jpg" alt="" style="width: 700px;    cursor: pointer;">
-        <img src="img/uba-second-img.jpg" alt="" style="width: 700px;    cursor: pointer;">
-        <img src="img/uba-third-img.jpg" alt="" style="width: 700px;    cursor: pointer;">
+        <img src="img/uba-first-img.jpg" alt="" class="img-second">
+        <img src="img/uba-second-img.jpg" alt="" class="img-second">
+        <img src="img/uba-third-img.jpg" alt="" class="img-second" >
     </nav>
-    <!-- </div> -->
+    <!-- THE SECOND SECTION ENDS HERE -->
+
+    <!-- THIRD SECTION -->
     <div class="texts">
         <nav class="text-control">
             <h2>Control</h2>
@@ -203,9 +216,12 @@
                 without options, everything you need is right there.</p>
         </nav>
     </div>
+    <!-- THIRD SECTION ENDS HERE -->
+   <!-- THE COVER IMG -->
     <div class="ubafifth">
-        <img src="img/uba-fifth-img.jpg" alt="" style="width: 100%;">
+        <img src="img/uba-fifth-img.jpg" alt="" class="ubafifth-img">
     </div>
+    <!-- FOURTH SECTION -->
     <div class="download">
         <nav class="download-btn">
             <h4>Download your mobile app today</h4>
@@ -213,16 +229,18 @@
             <button type="submit">DOWNLOAD NOW</button>
         </nav>
         <nav class="download-img">
-            <img src="img/Mobile-App-Download-1-q3u8grf4zafrcef0nynbpjkiesz5tmohrm4wb5je9s.png" alt="" width="600px">
+            <img src="img/Mobile-App-Download-1-q3u8grf4zafrcef0nynbpjkiesz5tmohrm4wb5je9s.png" alt="" class="img-fourth">
         </nav>
     </div>
+
     <section class="section-help">
         <h4>We are here to help</h4>
         <p>Everything to make your life easier</p>
     </section>
+    <!-- FIFTH SECTION -->
     <div class="questions">
         <nav class="img-question">
-            <img src="img/uba-seventh-img.jpg" alt="">
+            <img src="img/uba-seventh-img.jpg" alt="" class="img-fifth">
         </nav>
         <div class="migration">
             <nav class="migration-heading">
@@ -303,15 +321,17 @@
                 </form>
                 <p>**I agree that UBA Group and its affiliates may use my <br>
                     contact details to send me communications.</p>
+                    <nav class="img-footer">
                 <img src="img/appstore2.png" alt="" style="width: 120px;    cursor: pointer;">
                 <img src="img/googlepla.jpg" alt=""
                     style="width: 120px; height: 35px; border-radius: 10px;    cursor: pointer;">
+                    </nav>
                 <nav class="inner-font">
-                    <i class="fab fa-facebook" style="height: 40px;    cursor: pointer;"></i>
-                    <i class="fab fa-twitter" style="height: 40px;    cursor: pointer;"></i>
-                    <i class="fab fa-instagram" style="height: 40px;    cursor: pointer;"></i>
-                    <i class="fab fa-youtube" style="height: 40px;    cursor: pointer;"></i>
-                    <i class="fab fa-linkedin" style="height: 40px;    cursor: pointer;"></i>
+                    <i class="fab fa-facebook" style="height: 30px;    cursor: pointer;"></i>
+                    <i class="fab fa-twitter" style="height: 30px;    cursor: pointer;"></i>
+                    <i class="fab fa-instagram" style="height: 30px;    cursor: pointer;"></i>
+                    <i class="fab fa-youtube" style="height: 30px;    cursor: pointer;"></i>
+                    <i class="fab fa-linkedin" style="height: 30px;    cursor: pointer;"></i>
                 </nav>
             </nav>
         </div>
